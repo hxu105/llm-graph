@@ -1,6 +1,6 @@
 # LLM-Graph
 
-**LLM-Graph** is a research framework dedicated to exploring the intersection of Large Language Models (LLMs) and Graph Machine Learning. This project investigates different paradigms of graph-text integration, specifically focusing on aligning graph modalities within hidden representation spaces and leveraging LLMs for complex graph reasoning tasks. This repository is also the official code base for [When Structure Doesn’t Help: LLMs Do Not Read Text-Attributed Graphs as Effectively as We Expected](https://arxiv.org/abs/2511.16767).
+**LLM-Graph** is a research framework dedicated to exploring the intersection of Large Language Models (LLMs) and Graph Machine Learning. This project investigates different paradigms of graph-text integration, specifically focusing on aligning graph modalities within hidden representation spaces and leveraging LLMs for complex graph reasoning tasks. This repository is also the official codebase for [When Structure Doesn’t Help: LLMs Do Not Read Text-Attributed Graphs as Effectively as We Expected](https://arxiv.org/abs/2511.16767).
 
 ## 🚀 Overview
 
