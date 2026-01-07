@@ -1,6 +1,6 @@
 # LLM-Graph
 
-**LLM-Graph** is a research framework dedicated to exploring the intersection of Large Language Models (LLMs) and Graph Machine Learning. This project investigates different paradigms of graph-text integration, specifically focusing on aligning graph modalities within hidden representation spaces and leveraging LLMs for complex graph reasoning tasks.
+**LLM-Graph** is a research framework dedicated to exploring the intersection of Large Language Models (LLMs) and Graph Machine Learning. This project investigates different paradigms of graph-text integration, specifically focusing on aligning graph modalities within hidden representation spaces and leveraging LLMs for complex graph reasoning tasks. This repository is also the official code base for [When Structure Doesn’t Help: LLMs Do Not Read Text-Attributed Graphs as Effectively as We Expected](https://arxiv.org/abs/2511.16767).
 
 ## 🚀 Overview
 
@@ -42,7 +42,7 @@ pip install transformers==4.57.3 datasets==4.4.1 fire
 ```
 
 ## 📊 Dataset & Preprocessing
-Currently, the project focuses on **long-range graph datasets**. We use [CityNetwork](https://arxiv.org/abs/2503.09008) as our primary benchmark to evaluate the LLM's ability to capture global graph properties. Future updates will include general graph benchmarks.
+Currently, the project focuses on **textual-attribute graph datasets**.
 
 ### Data Preprocessing
 To prepare your data for LLM fine-tuning, you must convert graph structures into Hugging Face dataset cards.
@@ -73,4 +73,15 @@ To evaluate the model's performance and generate responses via chat completion, 
 
 ```bash
 bash scripts/chat_completion.sh
+```
+## 📝 Cite Our Paper
+```
+@inproceedings{
+xu2025when,
+title={When Structure Doesn{\textquoteright}t Help: {LLM}s Do Not Read Text-Attributed Graphs as Effectively as We Expected},
+author={Haotian Xu and Yuning You and Tengfei Ma},
+booktitle={The Fourth Learning on Graphs Conference},
+year={2025},
+url={https://openreview.net/forum?id=ijQTdlHJze}
+}
 ```
